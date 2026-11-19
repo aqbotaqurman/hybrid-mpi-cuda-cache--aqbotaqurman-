@@ -1,0 +1,44 @@
+{
+  "github_username": "aqbotaqurman",
+  "gpu_uuid": "GPU-96bc2218-7cb7-0103-d6f8-b6bab40377a5",
+  "cpu_sig": "x86_64::2",
+  "cpu_cache_line_bytes": 64,
+  "instance_seed": "0x215948d8974a1afb",
+  "grid_params": {
+    "global_nx": 512,
+    "global_ny": 512,
+    "dx": 0.001949317738791423,
+    "dt": 8.444228850251078e-07,
+    "kappa_max": 0.8999849990218878,
+    "dt_max_cfl": 1.0555286062813847e-06,
+    "steps": 300
+  },
+  "gpu_timings": {
+    "gpu_serialized_ms": 6396.81,
+    "gpu_overlapped_ms": 3649.037,
+    "speedup_ratio": 1.753
+  },
+  "parity_max_diff": 0.0,
+  "global_energy_history": {
+    "step_0": 0.2499998907,
+    "step_100": 0.2494941629,
+    "step_200": 0.2489897705,
+    "step_300": 0.2484866978
+  },
+  "shm_coherency_benchmark": {
+    "stride_1_ms": 184.999,
+    "stride_8_ms": 189.134,
+    "stride_16_ms": 194.929,
+    "false_sharing_slowdown_ratio": 0.978
+  },
+  "ptx_audit": {
+    "st.shared.f64": 5,
+    "ld.shared.f64": 5,
+    "bar.sync": 1
+  },
+  "llvm_ir_audit": {
+    "load_i64_count": 3,
+    "store_i64_count": 1,
+    "has_memory_ops": true
+  }
+}
